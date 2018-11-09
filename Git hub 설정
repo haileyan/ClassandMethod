@@ -1,0 +1,14 @@
+1. git init : git-hub에 프로젝트를 등록하기 위한 초기화 작업
+git init
+
+2. 정보 설정
+git config --local user.name haileyan
+git config --local user.email cocojey02@gmail.com
+
+3. 파일 등록
+git add .
+git commit -m first
+git commit -m "Method08 추가"(파일명 추가)
+
+git push -u origin master
+
