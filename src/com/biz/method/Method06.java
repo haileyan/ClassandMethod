@@ -7,9 +7,14 @@ public class Method06 {
 		int intNum1 = 100;
 		addVar();
 		addVar(intNum1);
+		System.out.println("10"+ intNum1);
+		
+		// 변수 * 값: 변수를 변화시키지 않는다.
+		System.out.println(intNum1 * 20);
 		System.out.println(intNum1);
 		
-		System.out.println(intNum1 * 20);
+		// 변수 *= 값: 변수를 변화 시킨다.
+		System.out.println(intNum1 *= 20);
 		System.out.println(intNum1);
 		
 	}
