@@ -12,3 +12,5 @@ git commit -m "Method08 추가"(파일명 추가)
 
 git push -u origin master
 
+4. git 파일 삭제
+rm -rf .git
